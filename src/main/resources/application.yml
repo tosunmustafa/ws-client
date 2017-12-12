@@ -1,0 +1,11 @@
+server:
+  port: 9090
+
+logging:
+  file: /var/log/ws-client.log
+  level:
+    com.mustafatosun: INFO
+ws:
+  endpoint: http://localhost:8080/ws
+  readTimeout: 100
+  connectTimeout: 100
